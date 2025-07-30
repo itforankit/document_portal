@@ -13,18 +13,10 @@ cd <project_folder_name>
 code .
 
 # Create a new Conda environment with Python 3.10
-<<<<<<< HEAD
-conda create -p venv python=3.10 -y
-
-
-# Activate the environment (use full path to the environment)
-conda activate venv/
-=======
 conda create -p <env_name> python=3.10 -y
 
 # Activate the environment (use full path to the environment)
 conda activate <path_of_the_env>
->>>>>>> effe946 (mac machine)
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt

@@ -6,9 +6,6 @@ langchain_google_genai
 langchain_community
 pypdf
 faiss-cpu
-<<<<<<< HEAD
-=======
 structlog
 PyMuPDF
->>>>>>> effe946 (mac machine)
 -e .
