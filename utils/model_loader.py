@@ -59,7 +59,7 @@ class ModelLoader:
 
         log.info("Loading LLM...")
         
-        provider_key = os.getenv("LLM_PROVIDER", "groq")  # Default groq
+        provider_key = os.getenv("LLM_PROVIDER", "google")  # Default groq
         if provider_key not in llm_block:
             log.error("LLM provider not found in config", provider_key=provider_key)
             raise ValueError(f"Provider '{provider_key}' not found in config")
@@ -119,3 +119,5 @@ if __name__ == "__main__":
     # Test the ModelLoader
     result=llm.invoke("Hello, how are you?")
     print(f"LLM Result: {result.content}")
+
+    #set LLM_PROVIDER="google"
