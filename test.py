@@ -158,10 +158,10 @@ from src.multi_document_chat.retrieval import ConversationalRAG
 def test_document_ingestion_and_rag():
     try:
         test_files = [
-            "data\\multi_doc_chat\\market_analysis_report.docx",
-            "data\\multi_doc_chat\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
-            "data\\multi_doc_chat\\sample.pdf",
-            "data\\multi_doc_chat\\state_of_the_union.txt"
+            "/Users/ankitsinghal/AI_workspace/document_portal/data/multi_doc_chat/market_analysis_report.docx",
+            "/Users/ankitsinghal/AI_workspace/document_portal/data/multi_doc_chat/NIPS-2017-attention-is-all-you-need-Paper.pdf",
+            "/Users/ankitsinghal/AI_workspace/document_portal/data/multi_doc_chat/sample.pdf",
+            "/Users/ankitsinghal/AI_workspace/document_portal/data/multi_doc_chat/state_of_the_union.txt"
         ]
         uploaded_files = []
         for file_path in test_files:
@@ -196,3 +196,6 @@ def test_document_ingestion_and_rag():
         
 if __name__ == "__main__":
     test_document_ingestion_and_rag()
+
+## running code
+#python test.py
