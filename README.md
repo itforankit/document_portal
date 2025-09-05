@@ -67,3 +67,7 @@ git clone https://github.com/sunnysavita10/document_portal.git
 - [Gemini Documentation](https://ai.google.dev/gemini-api/docs/models)
 
 
+### Creating new branch
+open git bash fro terminal window
+git checkout -b dev
+
