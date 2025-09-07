@@ -71,3 +71,7 @@ git clone https://github.com/sunnysavita10/document_portal.git
 open git bash fro terminal window
 git checkout -b dev
 
+### to switch to main branch
+git switch main
+
+
