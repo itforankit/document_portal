@@ -1,9 +1,10 @@
 /* ====== THEME ====== */
 :root{
   --bg:#0b55d3;
-  --bg-grad: radial-gradient(1200px 600px at 10% -20%, rgba(91,115,255,.15), transparent 40%),
+  /*--bg-grad: radial-gradient(1200px 600px at 10% -20%, rgba(91,115,255,.15), transparent 40%),
              radial-gradient(900px 500px at 90% -30%, rgba(61,215,182,.12), transparent 40%),
-             linear-gradient(180deg, #0b0f16 0%, #0a0d12 100%);
+             linear-gradient(180deg, #0b0f16 0%, #0a0d12 100%);*/
+  --bg-grad: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
   --surface:#0f1622;
   --glass: rgba(20,28,40,.7);
   --text:#e8ecf3;
