@@ -9,7 +9,7 @@ client = TestClient(app)
 def test_home():
     response = client.get("/")
     assert response.status_code == 200
-    assert "Document Portal" in response.text
+    assert "DocSmart" in response.text
 
 """ def test_health():
     response = client.get("/health")
