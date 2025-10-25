@@ -17,7 +17,7 @@ conda create -p <env_name> python=3.10 -y
 
 # Activate the environment (use full path to the environment)
 conda activate <path_of_the_env>
-
+source /Users/ankitsinghal/AI_workspace/document_portal/.venv/bin/activate
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
 
@@ -100,3 +100,5 @@ docker run -d -p 8080:8080 --name doc-portal document-portal-app
 ## pushing to docker hub
 docker tag document-portal-system itforankit/document-portal-system:latest
 docker push itforankit/document-portal-system:latest
+
+#running test3
